@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <script src="main.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <h2 class="text-center text-light">Formulaire d'inscription</h2>
+        <div class="col-8 offset-2">
+            <form class="my-5 bg-secondary-subtle p-4 rounded-2">
+                <h4 class="text-center">Informations personnelles</h4>
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="nom" placeholder="Veuillez entrer votre nom">
+                  </div>
+                  <div class="mb-3">
+                    <label for="prenom" class="form-label">Prenom</label>
+                    <input type="text" class="form-control" id="prenom" placeholder="Veuillez entrer votre prenom">
+                  </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Adresse E-mail</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Veuillez entrer votre adresse E-mail">
+                </div>
+                <div class="mb-3">
+                  <label for="motDePasse" class="form-label">Mot de passe</label>
+                  <input type="password" class="form-control" id="motDePasse">
+                </div>
+                <h4 class="text-center">Adresse</h4>
+                <div class="mb-3">
+                    <label for="adresse" class="form-label">Adresse</label>
+                    <input type="text" class="form-control" id="adresse">
+                </div>
+                <div class="mb-3">
+                    <label for="ville" class="form-label">Ville</label>
+                    <input type="text" class="form-control" id="ville">
+                </div>
+                <div class="mb-3">
+                    <label for="pays" class="form-label">Pays</label>
+                    <input type="text" class="form-control" id="pays">
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
